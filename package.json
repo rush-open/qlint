@@ -1,11 +1,12 @@
 {
-  "name": "qlint",
-  "version": "0.1.0",
+  "name": "qlint-cli",
+  "version": "0.1.1",
   "description": "Observability query linter — helps AI agents generate correct queries for any observability platform",
   "type": "module",
   "main": "./dist/index.js",
   "bin": {
-    "qlint": "./dist/index.js"
+    "qlint": "./dist/index.js",
+    "qlint-cli": "./dist/index.js"
   },
   "exports": {
     ".": "./dist/index.js"

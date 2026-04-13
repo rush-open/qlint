@@ -49,8 +49,8 @@ octo-cli / Datadog API executes → results back to user
 **Requirements:** Node.js >= 22.0.0
 
 ```bash
-npx qlint <command>           # Use directly via npx
-npm install -g qlint          # Or global install
+npx qlint-cli <command>       # Use directly via npx
+npm install -g qlint-cli      # Or global install, then use `qlint` shorthand
 ```
 
 ## Configuration
