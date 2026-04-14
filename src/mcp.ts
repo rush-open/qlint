@@ -9,6 +9,8 @@ import { getAdapter, listAdapters } from "./platform.js";
 
 // Ensure adapters are registered
 import "./platforms/octopus.js";
+import "./platforms/elasticsearch.js";
+import "./platforms/datadog.js";
 
 export async function startMcpServer(): Promise<void> {
 	const server = new Server(
