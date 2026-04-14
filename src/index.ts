@@ -6,6 +6,8 @@ import { getAdapter, listAdapters } from "./platform.js";
 import "./platforms/octopus.js";
 import "./platforms/elasticsearch.js";
 import "./platforms/datadog.js";
+import "./platforms/sls.js";
+import "./platforms/loki.js";
 
 function parseFilterArg(raw: string): { field: string; op: string; value: string } {
 	const match = raw.match(/^(.+?)\s*(!=|>=|<=|>|<|=)\s*(.+)$/);

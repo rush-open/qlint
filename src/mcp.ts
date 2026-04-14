@@ -11,6 +11,8 @@ import { getAdapter, listAdapters } from "./platform.js";
 import "./platforms/octopus.js";
 import "./platforms/elasticsearch.js";
 import "./platforms/datadog.js";
+import "./platforms/sls.js";
+import "./platforms/loki.js";
 
 export async function startMcpServer(): Promise<void> {
 	const server = new Server(
