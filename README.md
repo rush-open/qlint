@@ -216,11 +216,11 @@ The skill provides:
 
 | Platform | validate | build | Status |
 |----------|----------|-------|--------|
-| Octopus | ✅ | ✅ | Shipped — 200 production queries tested |
-| Elasticsearch | Planned | Planned | Next |
-| Datadog | Planned | Planned | Next |
-| Alibaba SLS | Planned | Planned | — |
-| Grafana Loki | Planned | Planned | — |
+| Octopus | ✅ | ✅ | 200 production queries tested |
+| Elasticsearch | ✅ | ✅ | Lucene syntax |
+| Datadog | ✅ | ✅ | Auto `@` prefix for facets |
+| Alibaba Cloud SLS | ✅ | ✅ | Lowercase operators |
+| Grafana Loki | ✅ | ✅ | Stream selector + pipeline model |
 
 ## Testing
 
